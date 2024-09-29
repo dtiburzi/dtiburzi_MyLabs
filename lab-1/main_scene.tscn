@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://q3x4rpq5quf6"]
+
+[ext_resource type="Texture2D" uid="uid://b7y51f0n3uvua" path="res://JalenBrunsonM-small.png" id="1_26jba"]
+[ext_resource type="Texture2D" uid="uid://brfglmwe6g62w" path="res://icon.svg" id="1_s7voo"]
+[ext_resource type="PackedScene" uid="uid://djsdi41qjqk1g" path="res://tree.tscn" id="3_d0bay"]
+
+[node name="Icon" type="Sprite2D"]
+position = Vector2(258, 396)
+scale = Vector2(1.24375, 1.24375)
+texture = ExtResource("1_26jba")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(397.789, -10.2513)
+scale = Vector2(1.48495, 1.48495)
+texture = ExtResource("1_s7voo")
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D2"]
+position = Vector2(-138.61, 9.20457)
+scale = Vector2(1, 1)
+texture = ExtResource("1_s7voo")
+
+[node name="Tree" parent="." instance=ExtResource("3_d0bay")]
+position = Vector2(64.3216, 113.367)
+
+[node name="Tree2" parent="." instance=ExtResource("3_d0bay")]
+position = Vector2(140.704, 113.367)
+
+[node name="Tree3" parent="." instance=ExtResource("3_d0bay")]
+position = Vector2(212.261, 110.151)
+
+[node name="Tree4" parent="." instance=ExtResource("3_d0bay")]
+position = Vector2(285.427, 111.759)
+
+[node name="Tree5" parent="." instance=ExtResource("3_d0bay")]
+position = Vector2(373.065, 108.543)
