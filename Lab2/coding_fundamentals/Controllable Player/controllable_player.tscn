@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://bhve5hbaeusop"]
+
+[ext_resource type="Script" path="res://Controllable Player/controllable_player.gd" id="1_t501d"]
+[ext_resource type="Texture2D" uid="uid://cj2dxdkjhbs8d" path="res://icon.svg" id="2_rjb5b"]
+
+[node name="controllable player" type="Sprite2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(86, 101)
+texture = ExtResource("2_rjb5b")
+script = ExtResource("1_t501d")
